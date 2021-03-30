@@ -1,0 +1,4 @@
+vue add i18n    
+
+in root
+.env
