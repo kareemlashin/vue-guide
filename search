@@ -1,0 +1,7 @@
+computed: {
+    filteredBlogs: function () {
+      return this.items.filter((blog) => {
+        return blog.name.match(this.property);
+      });
+    },
+  },
