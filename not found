@@ -1,0 +1,5 @@
+
+   { 
+  path: '/:pathMatch(.*)*', 
+   redirect:'/About' 
+   },
