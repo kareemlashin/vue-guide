@@ -1,0 +1,38 @@
+
+  {
+    path:'/admin',
+    name:'admin',
+    component: admin,
+    children:[
+     
+      {
+        path: 'news',
+        component: news
+      },
+      {
+        path: 'route',
+        component:route
+      },
+      {
+        path: 'Service',
+        component:Service
+      },
+    ]
+  },
+  {
+    path:'/Guest',
+    name:'Guest',
+    component: Guest,
+    children:[
+     
+      {
+        path: 'Form',
+        component: Form
+      },
+    ]
+  },
+  
+   { 
+  path: '/:pathMatch(.*)*', 
+   redirect:'/About' 
+   },
